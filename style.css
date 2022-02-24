@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+
+}
+
+html,body{height: 100%;}
+
+.sidebar{
+    float: left;
+    width: 250px;
+    padding: 10px 10px;
+    height: 100%;
+    overflow-y: auto;
+    background-color: black;
+    overflow-x: hidden;
+
+}
+
+.sidebar-wraper{
+    padding-bottom: 200px;
+
+}
+
+.sidebar-logo img{
+    max-width: 250px;
+    width: 100%;
+}
+
+.sidebar-menu{
+    margin: 30px 0;
+    color: rgb(190, 190, 190);
+}
+
+
+
+.sidebar-menu a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+.sidebar-menu svg{
+    margin: 0 30px;
+}
+
+.sidebar-menu .sidebar-menu-selecionado{
+    color: white;
+    background-color: rgb(80, 80, 80);
+    border-radius: 5px;
+}
+
+.sidebar-menu-item{
+    margin-top: 12px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.sidebar-menu p.sidebar-menu-title{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.sidebar-menu-item span{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.sidebar-menu-item-componente{
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.sidebar-menu-item img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+
+
+
+.sidebar-playlists{
+    padding: 20px 0px;
+    border-top: 1px solid white;
+}
+
+.sidebar-playlists a{
+    display: block;
+    margin: 10px 0;
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+}
+.sidebar-playlists a:hover{
+    color: white;
+}
+
+
+
+
+.main{
+    width: calc(100% - 250px);
+    background-color: rgb(30, 30, 30);
+    float: left;
+    height: 100%;
+
+    padding: 15px 50px;
+    overflow-y: auto;
+}
+
+.main-row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.main-wraper{
+    padding-bottom: 200px;
+}
+
+.main-row-title{
+    width: 100%;
+}
+
+.main-row-title h2{
+    color: white;
+}
+
+.main-col{
+    cursor: pointer;
+    width: 15%;
+    margin-right: 1%;
+    margin-top: 20px;
+
+    background-color: #282828;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
